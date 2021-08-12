@@ -94,6 +94,13 @@
                         color: white;
                     }
 
+                    &:hover {
+                        background-color: white;
+                        span, .fa-globe, .fa-caret-down {
+                            color: var(--black);
+                        }
+                    }
+
                     .fa-globe {
                         font-size: 20px;
                         margin-right: 0.5rem;

@@ -12,7 +12,7 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                     <a href="">Inicio</a>
                 </li>
                 <li>
-                    <a href="">Nostros</a>
+                    <a href="">Nosotros</a>
                 </li>
                 <li>
                     <a href="">Proyecto</a>
