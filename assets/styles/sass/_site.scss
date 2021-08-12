@@ -1,10 +1,39 @@
 // ----- Custom properties -----
 @font-face {
-    font-family: 'Circular';
-    src: url('../../fonts/CircularStd-Black.ttf');
+    font-family: 'Avenir';
+    src: url('../../fonts/avenirregular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/avenirblack.ttf');
     font-weight: 900;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../../fonts/avenirheavy.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mon';
+    src: url('../../fonts/montserratsemibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mon';
+    src: url('../../fonts/montserratbold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
 
 :root {
     --blue-color: #00A8CF;
@@ -21,7 +50,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--general-font);
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     color: var(--black);
     font-size: 16px;
 }
@@ -92,6 +121,9 @@ p {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+}
 
 // ---- Utilities
 .box-shadow {
