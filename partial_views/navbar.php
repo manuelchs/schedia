@@ -27,11 +27,11 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                 <a class="social"><i class="fab fa-instagram"></i></a>
                 <a class="social"><i class="fab fa-whatsapp"></i></a>
                 <a class="social"><i class="far fa-phone"></i></a>
-                <button class="select-language">
+                <button id="languageSubmenu" class="select-language">
                     <i class="far fa-globe"></i>
                     <span>ES</span>
                     <i class="fas fa-caret-down"></i>
-                    <div class="options">
+                    <div id="languageOptions" class="options">
                         <a>Español <i class="far fa-check"></i></a>
                         <a>Inglés</a>
                     </div>

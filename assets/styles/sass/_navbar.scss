@@ -25,6 +25,7 @@
                         color: white;
                         text-transform: uppercase;
                         position: relative;
+                        font-weight: $heavy;
                         &:after {
                             content: '';
                             position: absolute;
@@ -110,6 +111,7 @@
                         border: 1px solid white;
                         border-radius: 8px;
                         overflow: hidden;
+                        display: none;
                         a {
                             padding: 0.5rem 1rem;
                             text-align: left;
