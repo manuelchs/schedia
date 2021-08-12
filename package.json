@@ -1,0 +1,15 @@
+{
+  "name": "sitio_base",
+  "version": "1.0.0",
+  "description": "Sitio de base para desarrollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "sass --watch assets/styles/sass/main.scss:assets/styles/css/style.css"
+  },
+  "author": "AORI ft Marco Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
