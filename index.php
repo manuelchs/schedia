@@ -21,7 +21,7 @@
             <div class="gmw">
                 <h1>Especialistas en interiorismo corporativo</h1>
                 <h2 class="small-title">La magia detrás de los espacios inteligentes</h2>
-                <a class="main-button"><span>Ir a proyectos</span></a>
+                <a class="main-button left-desktop-no-mobile"><span>Ir a proyectos</span></a>
                 <button><i class="fal fa-chevron-double-down"></i></button>
             </div>
         </div>

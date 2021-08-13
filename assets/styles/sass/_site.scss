@@ -315,6 +315,13 @@ a {
     text-decoration: none;
     border: 2px solid white;
 
+    &.left-desktop-no-mobile {
+        margin-left: 36px;
+        @media #{$ipad} {
+            margin-left: 0;
+        }
+    }
+
     &:hover {
         background-color: #fff;
         &:before, &:after {
