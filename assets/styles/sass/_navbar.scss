@@ -6,6 +6,9 @@
     overflow: initial;
     nav {
         padding: 3.5rem 0;
+        @media #{$ipad} {
+            padding: 1rem 0;
+        }
         .gmw {
             display: flex;
             justify-content: space-between;
@@ -24,7 +27,7 @@
                 justify-content: space-between;
                 @media #{$ipad} {
                     position: fixed;
-                    background-color:blue;
+                    background-color:var(--black);
                     top: 0;
                     left: 0;
                     width: 100%;
@@ -32,9 +35,32 @@
                     align-items: center;
                     margin: auto;
                     flex-direction: column;
+                    transition: all .2s;
+                    top: -480px;
+                }
+
+                &.opened {
+                    top: 0;
                 }
             }
 
+            .logo-mobile {
+                padding: 1.5rem 0;
+                img {
+                    height: 72px;
+                    width: auto;
+                }
+
+                .close-menu {
+                    position: absolute;
+                    top: 2rem;
+                    right: 2rem;
+                    i {
+                        color: white;
+                        font-size: 2rem;
+                    }
+                }
+            }
             ul.links {
                 display: flex;
                 justify-content: center;
@@ -43,15 +69,22 @@
 
                 @media #{$ipad} {
                     flex-direction: column;
+                    padding: 2rem 0;
+                    border: 1px solid white;
+                    border-right: 0;
+                    border-left: 0;
+                    width: 100%;
                 }
                 li {
                     list-style: none;
                     margin-right: 3.5rem;
                     &:last-child {
                         margin-right: 0;
+                        margin-bottom: 0;
                     }
                     @media #{$ipad} {
                         margin-right: 0;
+                        margin-bottom: 1.5rem;
                     }
                     a {
                         color: white;
@@ -86,6 +119,10 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @media #{$ipad} {
+                    width: 100%;
+                    padding: 1.5rem 0;
+                }
                 .social {
                     width: 40px;
                     height: 40px;
@@ -154,6 +191,9 @@
                         border-radius: 8px;
                         overflow: hidden;
                         display: none;
+                        @media #{$ipad} {
+                            background-color: var(--black);
+                        }
                         a {
                             padding: 0.5rem 1rem;
                             text-align: left;

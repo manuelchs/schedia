@@ -7,10 +7,14 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
             <a class="logo" href="/">
                 <img src="/assets/images/logo.png" alt="Logo de Schedia">
             </a>
-            <button class="burger-icon only-mobile">
+            <button class="burger-icon only-mobile mobile-menu-trigger">
                 <i class="far fa-bars"></i>
             </button>
             <div id="sub-navbar" class="sub-wrapper">
+                <div class="logo-mobile only-mobile">
+                    <img src="/assets/images/logo-schedia-blanco.png" alt="">
+                    <button class="close-menu mobile-menu-trigger"><i class="fal fa-times"></i></button>
+                </div>
                 <ul class="links">
                     <li>
                         <a href="">Inicio</a>

@@ -39,6 +39,10 @@ $(document).ready( function() {
         animateScroll();
     });
 
+    $('.mobile-menu-trigger').click(function() {
+        $('#sub-navbar').toggleClass('opened');
+    });
+
 });
 
 function openModal(idModal, isIframe = false) {
