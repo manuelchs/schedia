@@ -11,14 +11,46 @@
             justify-content: space-between;
             align-items: center;
 
+            .burger-icon {
+                i {
+                    color: white;
+                    font-size: 32px;
+                }
+            }
+
+            .sub-wrapper {
+                width: calc(100% - 140px);
+                display: flex;
+                justify-content: space-between;
+                @media #{$ipad} {
+                    position: fixed;
+                    background-color:blue;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                    flex-direction: column;
+                }
+            }
+
             ul.links {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin: auto;
+
+                @media #{$ipad} {
+                    flex-direction: column;
+                }
                 li {
                     list-style: none;
                     margin-right: 3.5rem;
                     &:last-child {
+                        margin-right: 0;
+                    }
+                    @media #{$ipad} {
                         margin-right: 0;
                     }
                     a {
@@ -26,6 +58,7 @@
                         text-transform: uppercase;
                         position: relative;
                         font-weight: $heavy;
+
                         &:after {
                             content: '';
                             position: absolute;
@@ -77,6 +110,8 @@
                     i {
                         font-size: 20px;
                         color: white;
+                        margin-top: 2px;
+                        margin-right: 1px;
                     }
                 }
 
