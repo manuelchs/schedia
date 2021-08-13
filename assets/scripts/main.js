@@ -1,6 +1,6 @@
 $(document).ready( function() {
     animateScroll();
-
+    
     $('body').click( function(e) {
         if ( e.target.id !== 'languageSubmenu' && $(e.target).parent()[0].id !== 'languageSubmenu' && e.target.id !== 'languageOptions' ) {
             $('#languageOptions').hide(100);
