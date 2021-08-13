@@ -74,40 +74,38 @@ button {
 }
 
 h1 {
-    font-family: var(--title-font);
-    font-size: 3rem;
+    font-family: 'Mon', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
     @media (max-width: 800px) {
         font-size: 2rem;
     }
 }
 
 h2 {
-    font-family: var(--title-font);
+    font-family: 'Mon', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
 
 h3 {
-    font-family: var(--general-font);
+    font-family: 'Mon', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
 
 h4 {
-    font-family: var(--general-font);
+    font-family: 'Mon', Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    font-weight: normal;
     @media (max-width: 800px) {
         font-size: 1.125rem;
     }
 }
 
 h5 {
-    font-family: var(--general-font);
+    font-family: 'Mon', Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
 }
 
 h6 {
-    font-family: var(--general-font);
-    font-weight: bold;
+    font-family: 'Mon', Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
 }
 
@@ -123,6 +121,23 @@ p {
 
 a {
     text-decoration: none;
+}
+
+.large-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.medium-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.small-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
 }
 
 // ---- Utilities
@@ -288,84 +303,76 @@ a {
 }
 
 .main-button {
-    background-color: var(--red-color);
-    border-radius: 4px;
-    padding: 11px 0;
+    background-color: transparent;
+    padding: 12px 0;
     min-width: 200px;
     cursor: pointer;
-    transition: all .2s;
+    transition: all .4s;
     position: relative;
-    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    border: 2px solid white;
+
+    &:hover {
+        background-color: #fff;
+        &:before, &:after {
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+        }
+        &:before {
+            right: 0;
+        }
+    
+        &:after {
+            left: 0;
+        }
+        span, i {
+            color: var(--black);
+        }
+    }
 
     &:before, &:after {
         content: '';
         display: block;
         position: absolute;
-        width: 0px;
-        height: 100%;
-        background-color: var(--dark-red-color);
-        transition: all .25s;
+        width: 48px;
+        height: 2px;
+        background-color: white;
+        transition: all .4s;
         z-index: 0;
     }
 
-    &.green-button {
-        background-color: var(--green-color);
-        &:before, &:after {
-            background-color: var(--dark-green-color);
-        }
-        &:hover {
-            &:before, &:after {
-                width: 58%;
-            }
-        }
-    
-        &:focus {
-            box-shadow: 0px 0px 5px rgba(#11795f, 0.9);
-        }
-    
-        &:active {
-            background-color: var(--green-color);
-        }
-    }
-
     &:before {
-        top: 0;
-        left: 0;
-        clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+        right: calc(100% - 12px);
     }
 
     &:after {
-        top: 0;
-        right: 0;
-        clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+        left: calc(100% - 12px);
     }
 
+    i {
+        color: white;
+    }
     span {
-        font-family: var(--title-font);
+        font-family: 'Avenir', Arial, Helvetica, sans-serif;
+        font-weight: normal;
         text-transform: uppercase;
         color: white;
         z-index: 1;
         position: relative;
-    }
-
-
-    &:hover {
-        &:before, &:after {
-            width: 58%;
-        }
+        font-weight: $heavy;
     }
 
     &:focus {
         outline: none;
-        box-shadow: 0px 0px 5px rgba(#D90018, 0.9);
+        box-shadow: 0px 0px 5px rgba(white, 0.9);
     }
 
     &:active {
-        background-color: #ad0014;
+        background-color: white;
         &:before, &:after {
             width: 0;
         }
@@ -376,7 +383,6 @@ a {
             z-index: 1;
             position: relative;
             transition: all .2s;
-            color: white;
         }
 
         &.icon-right {
@@ -385,7 +391,7 @@ a {
             }
             &:hover {
                 i {
-                    // margin-left: 1rem;
+                    // color: var(--black);
                 }
             }
         }
@@ -396,9 +402,26 @@ a {
             }
             &:hover {
                 i {
-                    // margin-right: 1rem;
+                    // color: var(--black);
                 }
             }
+        }
+    }
+
+    &.black-button {
+        border-color: var(--black);
+        &:hover {
+            background-color: var(--black);
+            span, i {
+                color: white;
+            }
+        }
+        span, i {
+            color: var(--black);
+        }
+
+        &:before, &:after {
+            background-color: var(--black);
         }
     }
 }

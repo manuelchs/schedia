@@ -43,6 +43,10 @@ $(document).ready( function() {
         $('#sub-navbar').toggleClass('opened');
     });
 
+    $('.links-list h5').click(function(){
+        $(this).parent().find('.links').toggle(150);
+    });
+
 });
 
 function openModal(idModal, isIframe = false) {

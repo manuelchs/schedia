@@ -19,7 +19,10 @@
         </div>
         <div class="content-hero">
             <div class="gmw">
-                <h1>Somos los chidos, man</h1>
+                <h1>Especialistas en interiorismo corporativo</h1>
+                <h2 class="small-title">La magia detrás de los espacios inteligentes</h2>
+                <a class="main-button"><span>Ir a proyectos</span></a>
+                <button><i class="fal fa-chevron-double-down"></i></button>
             </div>
         </div>
     </div>
