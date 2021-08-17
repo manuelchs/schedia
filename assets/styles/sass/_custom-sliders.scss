@@ -1,0 +1,103 @@
+.lo-hacemos-slider {
+    @media #{$ipad} {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .slider-item {
+        align-items: flex-start;
+        .step {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+
+            @media #{$ipad} {
+                width: 100%;
+            }
+            &.conector {
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: var(--gray-2);
+                    position: absolute;
+                    left: 0;
+                    top: 60px;
+
+                }
+
+                &.left-conector {
+                    &:before {
+                        width: 50%;
+                        left: 0;
+                    }
+                }
+
+                &.right-conector {
+                    &:before {
+                        width: 50%;
+                        left: unset;
+                        right: 0;
+                    }
+                }
+            }
+
+            &:hover {
+                .icon-wrapper {
+                    border-color: var(--medium-light-gray);
+                    border-width: 4px;
+                    .step-number {
+                        background-color: var(--medium-light-gray);
+                        border-color: transparent;
+                        color: white;
+                        top: -2px;
+                        right: -2px;
+                    }
+                }
+            }
+
+            .icon-wrapper {
+                width: 120px;
+                height: 120px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 1px solid var(--gray-2);
+                position: relative;
+                transition: all .2s;
+
+                .step-number {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 40px;
+                    height: 40px;
+                    background-color: white;
+                    border-radius: 50%;
+                    border: 1px solid var(--gray-2);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    font-family: 'Mon', Arial, Helvetica, sans-serif;
+                    transition: all .2s;
+                }
+            }
+            h4, p {
+                text-align: center;
+                margin-top: 1rem;
+                padding: 0 0.6rem;
+            }
+            h4 {
+                font-size: 1.125rem;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

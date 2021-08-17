@@ -3,6 +3,7 @@
 <head>
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/img-slider.js"></script>
+    <script src="/assets/scripts/aori.slider.js"></script>
     <title>Schedia - Nosotros</title>
 </head>
 <body>
@@ -102,6 +103,191 @@
                     <p class="text-box">Equipo de seguimiento de post construcción 24/7 con un tiempo de reacción menor a 30 minutos.</p>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper proceso-wrapper">
+        <div class="gmw">
+            <h2 class="main-title centered mb-5">
+                <span>Nuestro proceso</span>
+                <span>¿Cómo lo hacemos?</span>
+            </h2>
+            <div class="slider-wrapper only-desktop">
+                <div id="sliderSteps" class="slider column lo-hacemos-slider">
+                    <div class="slider-item s1">
+                        <div class="step conector right-conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/gestoria-tramites.png" alt="">
+                                <div class="step-number">1</div>
+                            </div>
+                            <h4>Gestoría de trámites</h4>
+                            <p class="text-box">Gestionamos trámites para construcción y contratación de servicios privados o del estado.</p>
+                        </div>
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/planeacion-especializada.png" alt="">
+                                <div class="step-number">2</div>
+                            </div>
+                            <h4>Planeación Especializada</h4>
+                            <p class="text-box">Contamos con un equipo de ingenieros especializados en planeación de proyectos, logística, ejecución de ingenierías y cálculos.</p>
+                        </div>
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/electricidad-iluminacion.png" alt="">
+                                <div class="step-number">3</div>
+                            </div>
+                            <h4>Eléctricidad e iluminación</h4>
+                            <p class="text-box">Empleando una adecuada ingeniería eléctrica, realizamos todos los cálculos eléctricos para aterrizar un estudio de iluminación a la medida del proyecto.</p>
+                        </div>
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/hidrahulica-sanitaria.png" alt="">
+                                <div class="step-number">4</div>
+                            </div>
+                            <h4>Hidráulica y sanitaria</h4>
+                            <p class="text-box">Trabajamos a partir de cálculos hidrosanitarios precisos.</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-item s2">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/proteccion-incendios.png" alt="">
+                                <div class="step-number">5</div>
+                            </div>
+                            <h4>Protección de incendios</h4>
+                            <p class="text-box">Aplicamos ingeniería de protección contra incendios según la NFPA.</p>
+                        </div>
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/cableado-estructurado.png" alt="">
+                                <div class="step-number">6</div>
+                            </div>
+                            <h4>Cableado estructurado</h4>
+                            <p class="text-box">Todo el cableado estructurado que instalamos cuenta no solo con los más altos estándares de calidad sino con todas las certificaciones necesarias.</p>
+                        </div>
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/audio-video-control.png" alt="">
+                                <div class="step-number">7</div>
+                            </div>
+                            <h4>Audio, video y control</h4>
+                            <p class="text-box">Esquipamiento especial de audio, video y control de acceso.</p>
+                        </div>
+                        <div class="step conector left-conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/domotica.png" alt="">
+                                <div class="step-number">8</div>
+                            </div>
+                            <h4>Domótica</h4>
+                            <p class="text-box">Espacios inteligentes a partir de la gestión y automatización domótica.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s3">
+                    </div>
+                </div>
+                <div class="points">
+                    <div div="1" class="points-item p1 active"></div>
+                    <div div="2" class="points-item p2"></div>
+                </div>
+            </div>
+
+            <div class="slider-wrapper only-mobile">
+                <div id="sliderStepsMobile" class="slider column lo-hacemos-slider">
+                    <div class="slider-item s1">
+                        <div class="step conector right-conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/gestoria-tramites.png" alt="">
+                                <div class="step-number">1</div>
+                            </div>
+                            <h4>Gestoría de trámites</h4>
+                            <p class="text-box">Gestionamos trámites para construcción y contratación de servicios privados o del estado.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s2">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/planeacion-especializada.png" alt="">
+                                <div class="step-number">2</div>
+                            </div>
+                            <h4>Planeación Especializada</h4>
+                            <p class="text-box">Contamos con un equipo de ingenieros especializados en planeación de proyectos, logística, ejecución de ingenierías y cálculos.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s3">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/electricidad-iluminacion.png" alt="">
+                                <div class="step-number">3</div>
+                            </div>
+                            <h4>Eléctricidad e iluminación</h4>
+                            <p class="text-box">Empleando una adecuada ingeniería eléctrica, realizamos todos los cálculos eléctricos para aterrizar un estudio de iluminación a la medida del proyecto.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s4">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/hidrahulica-sanitaria.png" alt="">
+                                <div class="step-number">4</div>
+                            </div>
+                            <h4>Hidráulica y sanitaria</h4>
+                            <p class="text-box">Trabajamos a partir de cálculos hidrosanitarios precisos.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s5">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/proteccion-incendios.png" alt="">
+                                <div class="step-number">5</div>
+                            </div>
+                            <h4>Protección de incendios</h4>
+                            <p class="text-box">Aplicamos ingeniería de protección contra incendios según la NFPA.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s6">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/cableado-estructurado.png" alt="">
+                                <div class="step-number">6</div>
+                            </div>
+                            <h4>Cableado estructurado</h4>
+                            <p class="text-box">Todo el cableado estructurado que instalamos cuenta no solo con los más altos estándares de calidad sino con todas las certificaciones necesarias.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s7">
+                        <div class="step conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/audio-video-control.png" alt="">
+                                <div class="step-number">7</div>
+                            </div>
+                            <h4>Audio, video y control</h4>
+                            <p class="text-box">Esquipamiento especial de audio, video y control de acceso.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item s8">
+                        <div class="step conector left-conector">
+                            <div class="icon-wrapper">
+                                <img src="/assets/icons/proceso/domotica.png" alt="">
+                                <div class="step-number">8</div>
+                            </div>
+                            <h4>Domótica</h4>
+                            <p class="text-box">Espacios inteligentes a partir de la gestión y automatización domótica.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="points">
+                    <div class="points-item p1 active" div="1"></div>
+                    <div class="points-item p2" div="2"></div>
+                    <div class="points-item p3" div="3"></div>
+                    <div class="points-item p4" div="4"></div>
+                    <div class="points-item p5" div="5"></div>
+                    <div class="points-item p6" div="6"></div>
+                    <div class="points-item p7" div="7"></div>
+                    <div class="points-item p8" div="8"></div>
+                </div>
+            </div>
+
+            
         </div>
     </div>
     <?php include('partial_views/footer.php') ?>

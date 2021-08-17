@@ -103,19 +103,25 @@
                 align-items: center;
                 flex-direction: column;
                 box-shadow: 0px 3px 16px rgba(0,0,0,0.1);
+                transition: all .2s;
 
-                .icon-wrapper {
-                    .hover {
-                        display: none;
-                    }
-
-                    &:hover {
+                &:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 0px 10px 24px rgba(0,0,0,0.05);
+                    .icon-wrapper {
                         .normal {
                             display: none;
                         }
                         .hover {
                             display: block;
                         }
+                    }
+                }
+
+                .icon-wrapper {
+                    transition: all .2s;
+                    .hover {
+                        display: none;
                     }
                 }
                 h3.small {
@@ -129,6 +135,14 @@
                     line-height: 24px;
                 }
             }
+        }
+    }
+}
+
+.proceso-wrapper {
+    .gmw {
+        @media #{$ipad} {
+            width: 100%;
         }
     }
 }
