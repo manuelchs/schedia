@@ -34,3 +34,101 @@
         }
     }
 }
+
+.soluciones-wrapper {
+    background-image: url('/assets/images/lines.jpg');
+    @media #{$ipad} {
+        background-image: none;
+        background-color: #fff;
+        padding: 0;
+        overflow: initial;
+    }
+
+    .gmw {
+        @media #{$ipad} {
+            width: 100%;
+        }
+        .photo-text-container {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+
+            @media #{$ipad} {
+                flex-direction: column-reverse;
+            }
+
+            .photo {
+                background-image: url('/assets/images/portafolio/Avnet/avnet-13.jpeg');
+                background-position: center;
+                background-size: cover;
+                width: 50%;
+                height: auto;
+                @media #{$ipad} {
+                    width: 100%;
+                    height: 500px;
+                    margin-top: 3rem;
+                }
+            }
+            .text {
+                width: 50%;
+                padding: 6rem 4rem;
+                @media #{$ipad} {
+                    width: 100%;
+                    padding: 0 1rem;
+                    padding-top: 4rem;
+                }
+            }
+        }
+    }
+}
+
+.elegirnos-wrapper {
+    .gmw {
+        .grid-icons {
+            margin-top: 4rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            @media #{$ipad} {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .grid-icon-item {
+                background-color: #fff;
+                padding: 4rem 2rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+                box-shadow: 0px 3px 16px rgba(0,0,0,0.1);
+
+                .icon-wrapper {
+                    .hover {
+                        display: none;
+                    }
+
+                    &:hover {
+                        .normal {
+                            display: none;
+                        }
+                        .hover {
+                            display: block;
+                        }
+                    }
+                }
+                h3.small {
+                    max-width: 250px;
+                }
+                h3, p {
+                    text-align: center;
+                    margin-top: 1rem;
+                }
+                p {
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
