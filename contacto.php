@@ -22,14 +22,14 @@
             <div class="address-wrapper">
                 <h2 class="custom-animation custom-animation-bottom">Contáctanos</h2>
                 <p class="text-box custom-animation custom-animation-top">Cuéntanos cuál es el proyecto que te interesa. Cualquiera que sea tu sueño, nuestra pasión es ayudarte a descubrir el diseño exclusivo que lo hará realidad.</p>
-                <a href="https://goo.gl/maps/S5GQT99cGXXP5eM98" class="address-item custom-animation custom-animation-left">
+                <a href="https://goo.gl/maps/S5GQT99cGXXP5eM98" target="_blank" class="address-item custom-animation custom-animation-left">
                     <i class="fal fa-map-marker-alt"></i>
                     <div class="data">
                         <h4>Guadalajara</h4>
                         <p>Calle Buenos Aires 2570 Int 5, Col. Providencia.</p>
                     </div>
                 </a>
-                <a href="https://goo.gl/maps/vxFk5MLmtfsDLTS3A" class="address-item custom-animation custom-animation-right">
+                <a href="https://goo.gl/maps/vxFk5MLmtfsDLTS3A" target="_blank" class="address-item custom-animation custom-animation-right">
                     <i class="fal fa-map-marker-alt"></i>
                     <div class="data">
                         <h4>Monterrey</h4>
