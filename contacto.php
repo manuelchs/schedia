@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <?php include('partial_views/head_tag.php') ?>
+    <script src="/assets/scripts/contacto.js"></script>
     <title>Schedia - Contacto</title>
 </head>
 <body>

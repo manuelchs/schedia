@@ -1,5 +1,10 @@
 $(document).ready( function() {
     // Aquí va todo lo del form
+
+    setTimeout( function(){
+        console.log('Mostrar alert');
+        showAlert(true, 'Recibimos tu información', 'Hemos recibido tu información, en breve, uno de nuestros asesores se pondrá en contacto contigo');
+    }, 1000 );
     
     $("#contact-form").bind("submit",function(){
         // Capturamnos el boton de envío

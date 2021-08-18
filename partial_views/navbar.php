@@ -49,3 +49,9 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
         </div>
     </nav>
 </div>
+
+<div id="alert">
+    <button onclick="closeAlert();"><i class="far fa-times" aria-hidden="true"></i></button>
+    <h2 id="titleAlert"></h2>
+    <p id="messageAlert"></p>
+</div>
