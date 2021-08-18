@@ -39,12 +39,12 @@
             </div>
             <div class="form-wrapper">
                 <h3 class="custom-animation custom-animation-bottom">Envíanos un mensaje</h3>
-                <form action="">
-                    <input type="text" class="main-input custom-animation custom-animation-bottom" placeholder="Nombre*">
-                    <input type="text" class="main-input custom-animation custom-animation-top" placeholder="E-mail*">
-                    <input type="text" class="main-input custom-animation custom-animation-bottom" placeholder="Teléfono*">
+                <form id="contact-form" action="sendemail.php" method="post">
+                    <input name="nombre" type="text" class="main-input custom-animation custom-animation-bottom" placeholder="Nombre*">
+                    <input name="email" type="text" class="main-input custom-animation custom-animation-top" placeholder="E-mail*">
+                    <input name="telefono" type="text" class="main-input custom-animation custom-animation-bottom" placeholder="Teléfono*">
                     <div class="main-select custom-animation custom-animation-top">
-                        <select>
+                        <select name="asunto">
                             <option value="">Elige un asunto</option>
                             <option value="">Cotizaciones</option>
                             <option value="">Sugerencias</option>
@@ -52,7 +52,7 @@
                         </select>
                         <div><i class="fas fa-caret-down"></i></div>
                     </div>
-                    <textarea class="main-input custom-animation custom-animation-bottom" placeholder="Escríbenos un mensaje"></textarea>
+                    <textarea name="mensaje" class="main-input custom-animation custom-animation-bottom" placeholder="Escríbenos un mensaje"></textarea>
                     <button class="main-button black-button custom-animation custom-animation-top"><span>Enviar mensaje</span></button>
                     <div class="terms custom-animation custom-animation-bottom">Al dar clic en "Enviar mensaje" aceptas nuestro <a>Aviso de privacidad</a>. Te aseguramos que no compartiremos tus datos con nadie.</div>
                 </form>
