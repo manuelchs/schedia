@@ -300,6 +300,14 @@
                 top: 50%;
                 transform: translateY(-50%);
 
+                &:hover {
+                    .logo {
+                        img {
+                            filter: grayscale(0);
+                        }
+                    }
+                }
+
                 @media #{$ipad} {
                     position: relative;
                     width: 100%;
@@ -320,6 +328,10 @@
                     justify-content: center;
                     align-items: center;
                     height: 100%;
+                    img {
+                        filter: grayscale(1);
+                        transition: all .2s;
+                    }
 
                     @media #{$ipad} {
                         padding: 2rem 0;
