@@ -5,7 +5,7 @@
 </head>
 <body>
     <?php include('partial_views/navbar.php') ?>
-    <div class="main-wrapper">
+    <div class="main-wrapper terms-wrapper">
         <div class="gmw">
             <div class="main-title-underline">
                 <h1>Aviso de privacidad</h1>

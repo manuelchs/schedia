@@ -39,12 +39,18 @@ $(document).ready( function() {
         animateScroll();
     });
 
+    $(window).on( 'scroll', function() {
+        animateScroll();
+    });
+
     $('.mobile-menu-trigger').click(function() {
         $('#sub-navbar').toggleClass('opened');
     });
 
     $('.links-list h5').click(function(){
-        $(this).parent().find('.links').toggle(150);
+        if ( window.innerWidth < 900 ) {
+            $(this).parent().find('.links').toggle(150);
+        }
     });
 
 });

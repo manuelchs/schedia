@@ -17,6 +17,10 @@
         .info {
             width: 50%;
             margin-right: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
             @media #{$ipad} {
                 width: 100%;
             }
@@ -190,4 +194,290 @@
             width: 100%;
         }
     }
+}
+
+
+// Proyectos
+.page-hero.proyectos-hero {
+    background-image: url('/assets/images/proyectos/proyectos-hero.jpg');
+    @media #{$ipad} {
+        background-image: url('/assets/images/proyectos/proyectos-hero-movil.jpg');
+    }
+}
+
+.floating-wrapper {
+    margin-top: -7rem;
+
+    @media #{$ipad} {
+        margin-top: -5rem;
+    }
+    .gmw {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .floating-item {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            position: relative;
+            margin-bottom: 2.5rem;
+
+            @media #{$ipad} {
+                flex-direction: column-reverse;
+                box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.1);
+            }
+
+            &.no-margin {
+                margin-bottom: 0;
+            }
+
+            &.left-bg {
+                justify-content: flex-start;
+                .logo-wrapper {
+                    left: unset;
+                    right: 0;
+                }
+                .bg-img {
+                    .overlay {
+                        justify-content: flex-start;
+                        span {
+                            margin-right: 0;
+                            margin-left: 1.5rem;
+                            margin-bottom: 1.5rem;
+                        }
+                    }
+                }
+            }
+
+            .bg-img {
+                width: 60%;
+                height: auto;
+                position: relative;
+
+                @media #{$ipad} {
+                    width: 100%;
+                }
+
+                .overlay {
+                    background-image: linear-gradient(0deg, rgba(0,0,0,0.5018382352941176) 0%, rgba(0,0,0,0) 100%);;
+                    width: 100%;
+                    height: 20%;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    span, sup {
+                        color: white;
+                        font-family: 'Mon', Arial, Helvetica, sans-serif;
+                        font-size: 1.5rem;
+                        font-weight: 100;
+                        letter-spacing: 7px;
+                    }
+                    span {
+                        margin-right: 1.5rem;
+                        margin-bottom: 1.5rem;
+                    }
+                }
+            }
+
+            .logo-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.1);
+                padding: 0 2.5rem;
+                height: 80%;
+                position: absolute;
+                background: white;
+                width: 45%;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+
+                @media #{$ipad} {
+                    position: relative;
+                    width: 100%;
+                    transform: unset;
+                    top: unset;
+                    left: unset;
+                    height: auto;
+                    padding: 0;
+                    box-shadow: none;
+                    padding: 0 2rem;
+                }
+                & > * {
+                    width: 100%;
+                }
+
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+
+                    @media #{$ipad} {
+                        padding: 2rem 0;
+
+                        img {
+                            max-height: 80px;
+                            max-width: 180px;
+                        }
+                    }
+                }
+
+                .button-section {
+                    border-top: 1px solid var(--gray-2);
+                    margin-top: auto;
+                    padding: 1.5rem 0;
+
+                    button {
+                        font-weight: 900;
+                        text-transform: uppercase;
+                        cursor: pointer;
+
+                        @media #{$ipad} {
+                            width: 100%;
+                        }
+
+                        &:hover {
+                            i {
+                                margin-left: 12px;
+                            }
+                        }
+
+                        i {
+                            margin-left: 0.5rem;
+                            font-size: 20px;
+                            transition: all .2s;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.call-proyecto {
+    .gmw {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+// Contacto
+.page-hero.contacto-hero {
+    background-image: url('/assets/images/contacto/contacto-hero.jpg');
+    @media #{$ipad} {
+        background-image: url('/assets/images/contacto/contacto-hero-movil.jpg');
+    }
+
+    .gmw {
+        h1 {
+            max-width: 460px;
+        }
+    }
+}
+
+.contacto-wrapper {
+    .gmw {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        @media #{$ipad} {
+            flex-direction: column;
+        }
+        .address-wrapper {
+            margin-right: 4rem;
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            .address-item {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                border: 1px solid var(--black);
+                padding: 1.5rem;
+                cursor: pointer;
+
+                h4 {
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                }
+                i {
+                    font-size: 3rem;
+                    margin-right: 1rem;
+                }
+                &:last-child {
+                    margin-top: 1rem;
+                }
+            }
+
+        }
+
+        .address-wrapper, .form-wrapper {
+            width: 50%;
+            @media #{$ipad} {
+                margin: 0;
+                width: 100%;
+            }
+        }
+
+        .form-wrapper {
+            margin-top: 4rem;
+            h3 {
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                .main-input {
+                    margin-bottom: 1rem;
+                }
+
+                .main-select {
+                    margin-bottom: 1rem;
+                }
+                .main-button {
+                    margin-left: auto;
+                    margin-top: 2rem;
+                    @media #{$ipad} {
+                        margin-right: auto;
+                        width: 80%;
+                    }
+                }
+            }
+
+            .terms {
+                padding-top: 1.5rem;
+                border-top: 1px solid var(--gray-2);
+                color: var(--medium-gray);
+                margin-top: 2rem;
+                a {
+                    text-decoration: underline;
+                    color: var(--medium-gray);
+                }
+            }
+        }
+    }
+}
+
+.main-wrapper.terms-wrapper {
+    padding: 13rem 0;
 }

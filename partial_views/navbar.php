@@ -17,24 +17,24 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                 </div>
                 <ul class="links">
                     <li>
-                        <a href="">Inicio</a>
+                        <a href="/">Inicio</a>
                     </li>
                     <li>
-                        <a href="">Nosotros</a>
+                        <a href="/nosotros">Nosotros</a>
                     </li>
                     <li>
-                        <a href="">Proyecto</a>
+                        <a href="/proyectos">Proyectos</a>
                     </li>
                     <li>
-                        <a href="">Contacto</a>
+                        <a href="/contacto">Contacto</a>
                     </li>
                 </ul>
     
                 <div class="icons">
-                    <a class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a class="social"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/schediaarquitectura/" target="_blank" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
                     <a class="social"><i class="fab fa-whatsapp"></i></a>
-                    <a class="social"><i class="far fa-phone"></i></a>
+                    <a href="tel:+553331461273" class="social"><i class="far fa-phone"></i></a>
                     <button id="languageSubmenu" class="select-language">
                         <i class="far fa-globe"></i>
                         <span>ES</span>

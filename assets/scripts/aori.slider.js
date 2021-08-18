@@ -52,8 +52,8 @@ $(function () {
         function () {
             var sliderID = $(this).parent().parent().find('.slider')[0].id;
             console.log(sliderID);
-            var posInitial = $('#' + sliderID + ' + .points .points-item.active').attr('div');
-            var posClicked = $(this).attr('div');
+            var posInitial = parseInt($('#' + sliderID + ' + .points .points-item.active').attr('div'));
+            var posClicked = parseInt($(this).attr('div'));
     
             if (posInitial == $('#' + sliderID + ' .slider-item').length && posClicked == 1) {
                 moverD(sliderID);

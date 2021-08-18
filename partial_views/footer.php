@@ -1,18 +1,18 @@
-<footer>
+<footer id="footer">
     <div class="links-section">
         <div class="gmw">
-            <a class="logo-footer" href="/">
+            <a class="logo-footer custom-animation custom-animation-top" href="/">
                 <img src="/assets/images/logo-schedia-azul.png" alt="">
             </a>
             <div class="social-mobile only-mobile">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/schediaarquitectura/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href=""><i class="fab fa-whatsapp"></i></a>
                 <a href=""><i class="far fa-phone"></i></a>
             </div>
             <div class="links-list">
-                <h5>Contáctanos <i class="far fa-plus only-mobile"></i></h5>
-                <div class="links">
+                <h5 class="custom-animation custom-animation-bottom">Contáctanos <i class="far fa-plus only-mobile"></i></h5>
+                <div class="links custom-animation custom-animation-top">
                     <a href="tel:+553333080076">
                         <i class="fas fa-phone"></i>
                         <span>(33) 3308 0076</span>
@@ -28,25 +28,25 @@
                 </div>
             </div>
             <div class="links-list">
-                <h5>Enlaces rápidos<i class="far fa-plus only-mobile"></i></h5>
-                <div class="links">
-                    <a href=""><span>Inicio</span></a>
-                    <a href=""><span>Nosotros</span></a>
-                    <a href=""><span>Proyectos</span></a>
-                    <a href=""><span>Contacto</span></a>
-                    <a href=""><span>Aviso de privacidad</span></a>
+                <h5 class="custom-animation custom-animation-bottom">Enlaces rápidos<i class="far fa-plus only-mobile"></i></h5>
+                <div class="links custom-animation custom-animation-top">
+                    <a href="/"><span>Inicio</span></a>
+                    <a href="/nosotros"><span>Nosotros</span></a>
+                    <a href="/proyectos"><span>Proyectos</span></a>
+                    <a href="/contacto"><span>Contacto</span></a>
+                    <a href="/aviso-de-privacidad"><span>Aviso de privacidad</span></a>
                 </div>
             </div>
             <div class="links-list only-desktop">
-                <h5>Redes sociales</h5>
-                <div class="links">
-                    <a href="">
+                <h5 class="custom-animation custom-animation-bottom">Redes sociales</h5>
+                <div class="links custom-animation custom-animation-top">
+                    <a href="https://www.facebook.com/schediaarquitectura/" target="_blank">
                         <div class="icon-wrapper">
                             <i class="fab fa-facebook-f"></i>
                         </div>
                         <span>Facebook</span>
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank">
                         <div class="icon-wrapper">
                             <i class="fab fa-instagram"></i>
                         </div>

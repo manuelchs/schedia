@@ -19,10 +19,10 @@
         </div>
         <div class="content-hero">
             <div class="gmw">
-                <h1>Especialistas en interiorismo corporativo</h1>
-                <h2 class="small-title">La magia detrás de los espacios inteligentes</h2>
-                <a class="main-button left-desktop-no-mobile"><span>Ir a proyectos</span></a>
-                <button><i class="fal fa-chevron-double-down"></i></button>
+                <h1 class="custom-animation custom-animation-left">Especialistas en interiorismo corporativo</h1>
+                <h2 class="small-title custom-animation custom-animation-bottom">La magia detrás de los espacios inteligentes</h2>
+                <a href="/proyectos" class="main-button left-desktop-no-mobile custom-animation custom-animation-top"><span>Ir a proyectos</span></a>
+                <button onclick="scrollToID('footer', false)"><i class="fal fa-chevron-double-down"></i></button>
             </div>
         </div>
     </div>

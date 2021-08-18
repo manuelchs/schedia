@@ -128,3 +128,65 @@
         }
     }
 }
+
+.proyectos-slider {
+    max-width: 80%;
+    height: 80%;
+
+    @media #{$ipad} {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .slider-button {
+        i {
+            color: white;
+            font-size: 2rem;
+        }
+        @media #{$ipad} {
+            display: none;
+        }
+    }
+    .slider {
+        height: 100%;
+
+        .slider-item {
+            width: 100%;
+            height: 100%;
+            .img-wrapper {
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: calc(100% - 8rem);
+                margin: auto;
+                height: 100%;
+
+                @media #{$ipad} {
+                    width: 100%;
+                }
+            }
+        }
+
+        & + .points {
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translateX(-50%);
+
+            .points-item {
+                background-color: rgba(white, 0.5);
+                @media #{$ipad} {
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 12px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+                &.active {
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

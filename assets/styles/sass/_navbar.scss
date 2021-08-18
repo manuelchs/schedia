@@ -5,6 +5,10 @@
     width: 100%;
     overflow: initial;
     z-index: 10;
+
+    &.alt-nav {
+        background-color: var(--black);
+    }
     nav {
         padding: 3.5rem 0;
         @media #{$ipad} {
