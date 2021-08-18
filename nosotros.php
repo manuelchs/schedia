@@ -3,6 +3,7 @@
 <head>
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/img-slider.js"></script>
+    <script src="/assets/scripts/hammer.js"></script>
     <script src="/assets/scripts/aori.slider.js"></script>
     <title>Schedia - Nosotros</title>
 </head>

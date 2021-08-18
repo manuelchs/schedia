@@ -111,8 +111,15 @@ $(function () {
     }
 
     function setAllSliders() {
-        $('.slider').each( function(index, slider) {
-            var sliderID = slider.id;
+        $('.slider').each( function() {
+            var sliderID = this.id;
+            var mc = new Hammer(this);
+            mc.on('swipeleft', function(e){
+                moverD(sliderID);
+            });
+            mc.on('swiperight', function(e){
+                moverI(sliderID);
+            });
             $('#' + sliderID).css('width', ($('#' + sliderID + ' .slider-item').length * 100) + '%');
             $('#' + sliderID + ' .slider-item:last').insertBefore('#' + sliderID +' .slider-item:first');
             $('#' + sliderID).css('margin-left', '-' + 100 + '%');

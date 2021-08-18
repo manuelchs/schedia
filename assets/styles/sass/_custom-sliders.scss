@@ -101,3 +101,30 @@
         }
     }
 }
+
+.clientes-slider {
+    .slider-item {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 6rem;
+        padding: 0 2rem;
+        @media #{$ipad} {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2rem;
+        }
+        img {
+            filter: grayscale(1);
+            max-height: 60px;
+            margin: auto;
+            &:hover {
+                filter: grayscale(0);
+            }
+        }
+    }
+
+    & + .points {
+        @media #{$ipad} {
+            margin-top: 2rem;
+        }
+    }
+}
