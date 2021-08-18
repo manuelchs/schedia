@@ -141,8 +141,50 @@
 
 .proceso-wrapper {
     .gmw {
+        .main-title {
+            margin-bottom: 6rem;
+            @media #{$ipad} {
+                margin-bottom: 4rem;
+            }
+        }
         @media #{$ipad} {
             width: 100%;
         }
+    }
+}
+
+.nueva-historia-wrapper {
+    background-image: url('/assets/images/nosotros/call-to-action-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 0;
+    @media #{$ipad} {
+        background-image: url('/assets/images/nosotros/call-to-action-banner-movil.jpg');
+    }
+
+    .gmw {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            color: white;
+            font-size: 40px;
+            line-height: 64px;
+            margin-bottom: 40px;
+            font-weight: 500;
+            max-width: 450px;
+            text-align: center;
+            @media #{$ipad} {
+                font-size: 2rem;
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+.clientes-wrapper {
+    .gmw {
+        max-width: 800px;
     }
 }

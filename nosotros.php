@@ -108,7 +108,7 @@
 
     <div class="main-wrapper proceso-wrapper">
         <div class="gmw">
-            <h2 class="main-title centered mb-5">
+            <h2 class="main-title centered">
                 <span>Nuestro proceso</span>
                 <span>¿Cómo lo hacemos?</span>
             </h2>
@@ -286,8 +286,43 @@
                     <div class="points-item p8" div="8"></div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            
+    <div class="main-wrapper nueva-historia-wrapper">
+        <div class="gmw">
+            <h2>Iniciemos juntos una nueva historia</h2>
+            <a href="#" class="main-button"><span>Contactar</span></a>
+        </div>
+    </div>
+
+    <div class="main-wrapper clientes-wrapper">
+        <div class="gmw">
+            <div class="slider-wrapper">
+                <div id="sliderClientes" class="slider column clientes-slider">
+                    <div class="slider-item s1">
+                        <img src="/assets/images/nosotros/clientes/avnet-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/betterware-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/cbre-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/colliers-big.png" alt="">
+                    </div>
+                    <div class="slider-item s2">
+                        <img src="/assets/images/nosotros/clientes/cuesta-campos-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/f5-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/greystar-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/luxoft-big.png" alt="">
+                    </div>
+                    <div class="slider-item s3">
+                        <img src="/assets/images/nosotros/clientes/mt-motors-big.png" alt="">
+                        <img src="/assets/images/nosotros/clientes/technicolor-big.png" alt="">
+                    </div>
+                </div>
+                <div class="points">
+                    <div class="points-item p1 active" div="1"></div>
+                    <div class="points-item p2" div="2"></div>
+                    <div class="points-item p3" div="3"></div>
+                </div>
+            </div>
         </div>
     </div>
     <?php include('partial_views/footer.php') ?>
