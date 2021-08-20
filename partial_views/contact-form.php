@@ -4,7 +4,7 @@ EN LA MAQUETA SE MOSTRARÁ PRIMERO EL label Y DESPUÉS EL input -->
 
 <!-- SOLO AGREGA LA CLASE input-error AL INPUT QUE ESTÁ INCORRECTO Y CSS HARÁ EL RESTO  -->
 
-<form id="contact-form" action="sendemail.php" method="post">
+<!-- <form id="contact-form" action="sendemail.php" method="post">
     <div class="input-wrapper custom-animation custom-animation-bottom">
         <input type="text" placeholder="Nombre completo" name="nombre">
         <label for="">
@@ -99,4 +99,4 @@ EN LA MAQUETA SE MOSTRARÁ PRIMERO EL label Y DESPUÉS EL input -->
     <p id="errorMessage" class="error d-none">Completa todos los campos</p>
     <button id="contact-form-btn" class="main-button mt-1-half"><span>Enviar</span></button>
     <p class="terms mt-3">Al dar clic en "Enviar" aceptas nuestro <a href="">Aviso de privacidad</a> y reconoce que sus datos se mantendrán confidenciales.</p>
-</form>
+</form> -->

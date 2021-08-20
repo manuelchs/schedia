@@ -46,14 +46,14 @@
                     <div class="main-select custom-animation custom-animation-top">
                         <select name="asunto">
                             <option value="">Elige un asunto</option>
-                            <option value="">Cotizaciones</option>
-                            <option value="">Sugerencias</option>
-                            <option value="">Comentarios</option>
+                            <option value="Cotizaciones">Cotizaciones</option>
+                            <option value="Sugerencias">Sugerencias</option>
+                            <option value="Comentarios">Comentarios</option>
                         </select>
                         <div><i class="fas fa-caret-down"></i></div>
                     </div>
                     <textarea name="mensaje" class="main-input custom-animation custom-animation-bottom" placeholder="Escríbenos un mensaje"></textarea>
-                    <button class="main-button black-button custom-animation custom-animation-top"><span>Enviar mensaje</span></button>
+                    <button id="contact-form-btn" type="submit" class="main-button black-button custom-animation custom-animation-top"><span>Enviar mensaje</span></button>
                     <div class="terms custom-animation custom-animation-bottom">Al dar clic en "Enviar mensaje" aceptas nuestro <a>Aviso de privacidad</a>. Te aseguramos que no compartiremos tus datos con nadie.</div>
                 </form>
             </div>
