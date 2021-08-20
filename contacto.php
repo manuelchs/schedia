@@ -46,9 +46,9 @@
                     <div class="main-select custom-animation custom-animation-top">
                         <select name="asunto">
                             <option value="">Elige un asunto</option>
-                            <option value="Cotizaciones">Cotizaciones</option>
-                            <option value="Sugerencias">Sugerencias</option>
-                            <option value="Comentarios">Comentarios</option>
+                            <option value="Cotizaciones">Requiero una cotización</option>
+                            <option value="Sugerencias">Deseo agendar una cita o video llamada</option>
+                            <option value="Comentarios">Otro asunto</option>
                         </select>
                         <div><i class="fas fa-caret-down"></i></div>
                     </div>

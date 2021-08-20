@@ -1,6 +1,9 @@
 Options +FollowSymLinks
 RewriteEngine On
 
+RewriteCond %{HTTP_HOST} ^schedia.mx$ [NC]
+RewriteRule (.*) http://www.schedia.mx/$1 [R=301,L] 
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
