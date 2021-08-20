@@ -6,5 +6,5 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/styles/css/style.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="/assets/scripts/main.js"></script>
+<script src="/assets/scripts/main.js?v=1.0"></script>
 <link rel="icon" type="image/png" href="/favicon.png">

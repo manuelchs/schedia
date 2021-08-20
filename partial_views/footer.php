@@ -52,7 +52,7 @@
                         </div>
                         <span>Instagram</span>
                     </a>
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=523333080076" href="_blank">
                         <div class="icon-wrapper">
                             <i class="fab fa-whatsapp"></i>
                         </div>

@@ -34,7 +34,7 @@
 
     <div class="main-wrapper call-proyecto">
         <div class="gmw">
-            <a href="" class="main-button black-button custom-animation custom-animation-bottom"><span>Contactar</span></a>
+            <a href="/contacto" class="main-button black-button custom-animation custom-animation-bottom"><span>Contactar</span></a>
         </div>
     </div>
 

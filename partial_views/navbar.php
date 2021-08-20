@@ -33,8 +33,8 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                 <div class="icons">
                     <a href="https://www.facebook.com/schediaarquitectura/" target="_blank" class="social"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
-                    <a class="social"><i class="fab fa-whatsapp"></i></a>
-                    <a href="tel:+553331461273" class="social"><i class="far fa-phone"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=523333080076" target="_blank" class="social"><i class="fab fa-whatsapp"></i></a>
+                    <a href="tel:+553333080076" class="social"><i class="far fa-phone"></i></a>
                     <button id="languageSubmenu" class="select-language">
                         <i class="far fa-globe"></i>
                         <span>ES</span>

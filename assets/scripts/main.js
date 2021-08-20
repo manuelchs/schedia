@@ -45,11 +45,13 @@ $(document).ready( function() {
 
     $('.mobile-menu-trigger').click(function() {
         $('#sub-navbar').toggleClass('opened');
+        animateScroll();
     });
 
     $('.links-list h5').click(function(){
         if ( window.innerWidth < 900 ) {
             $(this).parent().find('.links').toggle(150);
+        animateScroll();
         }
     });
 

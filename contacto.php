@@ -13,7 +13,7 @@
                 <span class="custom-animation custom-animation-bottom">Contacto</span>
                 <span class="custom-animation custom-animation-top">Tu proyecto comienza aquí</span>
             </h1>
-            <a class="main-button left-desktop-no-mobile icon icon-left custom-animation custom-animation-bottom"><i class="fas fa-phone"></i><span>Llamar</span></a>
+            <a href="tel:+553333080076" class="main-button left-desktop-no-mobile icon icon-left custom-animation custom-animation-bottom"><i class="fas fa-phone"></i><span>Llamar</span></a>
         </div>
     </div>
 
