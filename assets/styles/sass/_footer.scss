@@ -1,3 +1,36 @@
+.instagram {
+    background-color: var(--gray-1);
+    border-bottom: 1px solid white;
+    & > img {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .gmw {
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        @media #{$ipad} {
+            max-width: unset;
+            width: 100%;
+            overflow-x: scroll;
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        iframe {
+            padding: 0 0.5rem;
+            @media #{$ipad} {
+                width: 300% !important;
+            }
+        }
+    }
+
+    .main-button {
+        width: 70%;
+        margin: auto;
+        max-width: 300px;
+        margin-top: 40px;
+    }
+}
 footer {
     background-color: var(--gray-1);
     .links-section {

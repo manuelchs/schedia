@@ -1,3 +1,15 @@
+<?php
+    $hideInsta = $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/index' || $_SERVER['REQUEST_URI'] === '/index.php';
+?>
+<div <?php if( $hideInsta ) { echo 'style="display: none;"'; }  ?> class="instagram main-wrapper">
+    <img src="/assets/images/logo-instagram.png" alt="">
+    <!-- SnapWidget -->
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <div class="gmw">
+        <iframe src="https://snapwidget.com/embed/961268" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+    </div>
+    <a href="#" class="main-button black-button"><span>Ver más en instagram</span></a>
+</div>
 <footer id="footer">
     <div class="links-section">
         <div class="gmw">
