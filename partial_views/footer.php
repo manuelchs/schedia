@@ -8,7 +8,7 @@
     <div class="gmw">
         <iframe src="https://snapwidget.com/embed/961268" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
     </div>
-    <a href="#" class="main-button black-button"><span>Ver más en instagram</span></a>
+    <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank" class="main-button black-button"><span>Ver más en instagram</span></a>
 </div>
 <footer id="footer">
     <div class="links-section">
