@@ -32,12 +32,6 @@
         </div>
     </div>
 
-    <div class="main-wrapper call-proyecto">
-        <div class="gmw">
-            <a href="/contacto" class="main-button black-button custom-animation custom-animation-bottom"><span>Contactar</span></a>
-        </div>
-    </div>
-
     <?php include('partial_views/footer.php') ?>
 </body>
 </html>

@@ -151,6 +151,11 @@
                     margin-top: 5px;
                 }
             }
+            .home-page-hero-title{
+                @media #{$ipad} {
+                    font-size: 1.5rem;
+                }
+            }
         }
     }
 }

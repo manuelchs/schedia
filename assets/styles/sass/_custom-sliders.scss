@@ -141,7 +141,7 @@
     .slider-button {
         i {
             color: white;
-            font-size: 2rem;
+            font-size: 4rem;
         }
         @media #{$ipad} {
             display: none;
@@ -172,6 +172,11 @@
             left: 50%;
             bottom: 40px;
             transform: translateX(-50%);
+            display: none;
+
+            @media #{$ipad} {
+                display: flex;
+            }
 
             .points-item {
                 background-color: rgba(white, 0.5);

@@ -2,10 +2,9 @@
     <div class="bg-img custom-animation slow-animation custom-animation-bottom">
         <img src="/assets/images/portafolio/Colliers/colliers-4.jpg" alt="">
         <div class="overlay">
-            <span>250 m<sup>2</sup></span>
         </div>
     </div>
-    <div class="logo-wrapper custom-animation slow-animation custom-animation-left">
+    <div class="logo-wrapper custom-animation slow-animation custom-animation-left"  onclick="openModal('colliers')">
         <div class="logo">
             <img src="/assets/images/clientes/colliers-big.png" alt="">
         </div>

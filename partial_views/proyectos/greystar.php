@@ -2,15 +2,14 @@
     <div class="bg-img custom-animation slow-animation custom-animation-bottom">
         <img src="/assets/images/portafolio/Greystar/greystar-3.jpg" alt="">
         <div class="overlay">
-            <span>800 m<sup>2</sup></span>
         </div>
     </div>
-    <div class="logo-wrapper custom-animation slow-animation custom-animation-left">
+    <div class="logo-wrapper custom-animation slow-animation custom-animation-left" onclick="openModal('greystar')">
         <div class="logo">
             <img src="/assets/images/clientes/greystar-big.png" alt="">
         </div>
         <div class="button-section">
-            <button onclick="openModal('greystar')"><span>ver detalles</span><i class="far fa-long-arrow-alt-right"></i></button>
+            <button><span>ver detalles</span><i class="far fa-long-arrow-alt-right"></i></button>
         </div>
     </div>
 </div>

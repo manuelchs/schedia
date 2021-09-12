@@ -300,6 +300,7 @@
                 left: 0;
                 top: 50%;
                 transform: translateY(-50%);
+                cursor: pointer;
 
                 &:hover {
                     .logo {
@@ -417,7 +418,7 @@
             }
 
             .address-item {
-                margin-top: 2rem;
+                margin-top: 2.5rem;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
@@ -434,9 +435,7 @@
                     font-size: 3rem;
                     margin-right: 1rem;
                 }
-                &:last-child {
-                    margin-top: 1rem;
-                }
+                
             }
 
         }
@@ -450,9 +449,8 @@
         }
 
         .form-wrapper {
-            margin-top: 4rem;
             h3 {
-                font-size: 1rem;
+                font-size: 1.5rem;
                 margin-bottom: 2rem;
             }
             form {
@@ -481,11 +479,14 @@
                 padding-top: 1.5rem;
                 border-top: 1px solid var(--gray-2);
                 color: var(--medium-gray);
-                margin-top: 2rem;
+                margin-top: 3rem;
                 a {
                     text-decoration: underline;
                     color: var(--medium-gray);
                 }
+            }
+            @media #{$ipad} {
+                margin-top: 4rem;;
             }
         }
     }

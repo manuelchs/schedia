@@ -2,7 +2,6 @@
     <div class="bg-img custom-animation slow-animation custom-animation-bottom">
         <img src="/assets/images/portafolio/Avnet/avnet-1.jpeg" alt="">
         <div class="overlay">
-            <span>4,000 m<sup>2</sup></span>
         </div>
     </div>
     <div class="logo-wrapper custom-animation slow-animation custom-animation-left">
