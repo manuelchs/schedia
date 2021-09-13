@@ -4,7 +4,7 @@
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/hammer.js"></script>
     <script src="/assets/scripts/aori.slider.js"></script>
-    <title>Schedia - Proyectos</title>
+    <title>Schedia - Portfolio</title>
 </head>
 <body>
     <?php include('partial_views/navbar.php') ?>

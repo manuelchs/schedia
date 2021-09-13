@@ -8,19 +8,19 @@
     <div class="gmw">
         <iframe src="https://snapwidget.com/embed/961268" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
     </div>
-    <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank" class="main-button black-button"><span>Ver más en instagram</span></a>
+    <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank" class="main-button black-button"><span>See more on Instagram</span></a>
 </div>
 <footer id="footer">
     <div class="links-section">
         <div class="gmw">
-            <a class="logo-footer custom-animation custom-animation-top" href="/">
+            <a class="logo-footer custom-animation custom-animation-top" href="/en">
                 <img src="/assets/images/logo-schedia-azul.png" alt="">
             </a>
             <div class="social-mobile only-mobile">
                 <a href="https://www.facebook.com/schediaarquitectura/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/schedia_arquitectura/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-whatsapp"></i></a>
-                <a href=""><i class="far fa-phone"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=523333080076" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="tel:+553333080076"><i class="far fa-phone"></i></a>
             </div>
             <div class="links-list">
                 <h5 class="custom-animation custom-animation-bottom">Contact us<i class="far fa-plus only-mobile"></i></h5>
@@ -40,13 +40,13 @@
                 </div>
             </div>
             <div class="links-list">
-                <h5 class="custom-animation custom-animation-bottom">SITE MAP<i class="far fa-plus only-mobile"></i></h5>
+                <h5 class="custom-animation custom-animation-bottom">Site map<i class="far fa-plus only-mobile"></i></h5>
                 <div class="links custom-animation custom-animation-top">
-                    <a href="/"><span>Home</span></a>
-                    <a href="/nosotros"><span>Abaout us</span></a>
-                    <a href="/proyectos"><span>Portfolio</span></a>
-                    <a href="/contacto"><span>Contact us</span></a>
-                    <a href="/aviso-de-privacidad"><span>Aviso de privacidad</span></a>
+                    <a href="/en"><span>Home</span></a>
+                    <a href="/en/about"><span>About us</span></a>
+                    <a href="/en/portfolio"><span>Portfolio</span></a>
+                    <a href="/en/contact"><span>Contact us</span></a>
+                    <a href="/en/privacy-notice"><span>Privacy notice</span></a>
                 </div>
             </div>
             <div class="links-list only-desktop">
@@ -77,8 +77,8 @@
     <div class="rights-section">
         <div class="gmw">
             <img src="/assets/images/ssl-icon.png" alt="">
-            <span class="rights">Schedia 2021® all rights reserved.&reg; 2021</span>
-            <span class="aori">Website developed by<a href="https://aori.mx/" target="_blank">aori.mx</a></span>
+            <span class="rights">Schedia 2021&reg; All rights reserved.</span>
+            <span class="aori">Website developed by <a href="https://aori.mx/" target="_blank">aori.mx</a></span>
         </div>
     </div>
 </footer>

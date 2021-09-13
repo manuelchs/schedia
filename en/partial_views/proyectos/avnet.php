@@ -9,7 +9,7 @@
             <img src="/assets/images/clientes/avnet-big.png" alt="">
         </div>
         <div class="button-section">
-            <button><span>see more</span><i class="far fa-long-arrow-alt-right"></i></button>
+            <button><span>View gallery</span><i class="far fa-long-arrow-alt-right"></i></button>
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@
     <script src="/assets/scripts/img-slider.js"></script>
     <script src="/assets/scripts/hammer.js"></script>
     <script src="/assets/scripts/aori.slider.js"></script>
-    <title>Schedia - Nosotros</title>
+    <title>Schedia - About us</title>
 </head>
 <body>
     <?php include('partial_views/navbar.php') ?>
@@ -15,7 +15,7 @@
                 <span class="custom-animation custom-animation-bottom">About us</span>
                 <span class="custom-animation custom-animation-top">Our passion is to design the best workspaces</span>
             </h1>
-            <a href="/contacto" class="main-button left-desktop-no-mobile custom-animation custom-animation-left"><span>Contact us</span></a>
+            <a href="/en/contact" class="main-button left-desktop-no-mobile custom-animation custom-animation-left"><span>Contact us</span></a>
         </div>
     </div>
 
@@ -27,7 +27,7 @@
                     <span class="custom-animation custom-animation-top">Sloving your overall workspace environment</span>
                 </h2>
                 <p class="text-box mt-2 custom-animation custom-animation-bottom">Our company is mainly oriented in designing  and developing the best workspace solutions out there. Our overall “know-how” of this industry, allows us to provide our customers with punctuality, quality and affordable prices. Delivering quality solutions with great customer service i our priority. </p>
-                <a href="/proyectos" class="main-button black-button mt-3 left-desktop-no-mobile custom-animation custom-animation-bottom"><span>Go to portfolio</span></a>
+                <a href="/en/portfolio" class="main-button black-button mt-3 left-desktop-no-mobile custom-animation custom-animation-bottom"><span>Go to portfolio</span></a>
             </div>
             <?php include('partial_views/img-slider.php') ?>
         </div>
@@ -293,7 +293,7 @@
     <div class="main-wrapper nueva-historia-wrapper">
         <div class="gmw">
             <h2 class="custom-animation custom-animation-bottom">Time to build a new story.</h2>
-            <a href="/contacto" class="main-button custom-animation custom-animation-top"><span>Contact us</span></a>
+            <a href="/en/contact" class="main-button custom-animation custom-animation-top"><span>Contact us</span></a>
         </div>
     </div>
 

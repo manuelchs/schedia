@@ -54,7 +54,7 @@
                     </div>
                     <textarea name="mensaje" class="main-input custom-animation custom-animation-bottom" placeholder="Write your message, comment or suggestion"></textarea>
                     <button id="contact-form-btn" type="submit" class="main-button black-button custom-animation custom-animation-top"><span>Send message</span></button>
-                    <div class="terms custom-animation custom-animation-bottom">Once you click the “send message” button, you automatically agree and accept our <a>privacy notice</a>. We assure you that all the information we receive from your behalf, will only be used for internal purposes and will not be shared with any third parties.</div>
+                    <div class="terms custom-animation custom-animation-bottom">Once you click the “send message” button, you automatically agree and accept our <a href="/en/privacy-notice">privacy notice</a>. We assure you that all the information we receive from your behalf, will only be used for internal purposes and will not be shared with any third parties.</div>
                 </form>
             </div>
         </div>

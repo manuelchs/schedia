@@ -3,7 +3,7 @@
 <head>
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/slideshow.js"></script>
-    <title>Schedia - English</title>
+    <title>Schedia - Corporate interior design.</title>
 </head>
 <body>
     <?php include('partial_views/navbar.php') ?>
