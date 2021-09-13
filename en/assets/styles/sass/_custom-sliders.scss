@@ -1,0 +1,197 @@
+.lo-hacemos-slider {
+    @media #{$ipad} {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .slider-item {
+        align-items: flex-start;
+        .step {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+
+            @media #{$ipad} {
+                width: 100%;
+            }
+            &.conector {
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: var(--gray-2);
+                    position: absolute;
+                    left: 0;
+                    top: 60px;
+
+                }
+
+                &.left-conector {
+                    &:before {
+                        width: 50%;
+                        left: 0;
+                    }
+                }
+
+                &.right-conector {
+                    &:before {
+                        width: 50%;
+                        left: unset;
+                        right: 0;
+                    }
+                }
+            }
+
+            &:hover {
+                .icon-wrapper {
+                    border-color: var(--medium-light-gray);
+                    border-width: 4px;
+                    .step-number {
+                        background-color: var(--medium-light-gray);
+                        border-color: transparent;
+                        color: white;
+                        top: -2px;
+                        right: -2px;
+                    }
+                }
+            }
+
+            .icon-wrapper {
+                width: 120px;
+                height: 120px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 1px solid var(--gray-2);
+                position: relative;
+                transition: all .2s;
+
+                .step-number {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 40px;
+                    height: 40px;
+                    background-color: white;
+                    border-radius: 50%;
+                    border: 1px solid var(--gray-2);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: bold;
+                    font-family: 'Mon', Arial, Helvetica, sans-serif;
+                    transition: all .2s;
+                }
+            }
+            h4, p {
+                text-align: center;
+                margin-top: 1rem;
+                padding: 0 0.6rem;
+            }
+            h4 {
+                font-size: 1.125rem;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.clientes-slider {
+    .slider-item {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 6rem;
+        padding: 0 2rem;
+        @media #{$ipad} {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2rem;
+        }
+        img {
+            filter: grayscale(1);
+            max-height: 60px;
+            margin: auto;
+            &:hover {
+                filter: grayscale(0);
+            }
+        }
+    }
+
+    & + .points {
+        @media #{$ipad} {
+            margin-top: 2rem;
+        }
+    }
+}
+
+.proyectos-slider {
+    max-width: 80%;
+    height: 80%;
+
+    @media #{$ipad} {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .slider-button {
+        i {
+            color: white;
+            font-size: 4rem;
+        }
+        @media #{$ipad} {
+            display: none;
+        }
+    }
+    .slider {
+        height: 100%;
+
+        .slider-item {
+            width: 100%;
+            height: 100%;
+            .img-wrapper {
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: calc(100% - 8rem);
+                margin: auto;
+                height: 100%;
+
+                @media #{$ipad} {
+                    width: 100%;
+                }
+            }
+        }
+
+        & + .points {
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translateX(-50%);
+            display: none;
+
+            @media #{$ipad} {
+                display: flex;
+            }
+
+            .points-item {
+                background-color: rgba(white, 0.5);
+                @media #{$ipad} {
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 12px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+                &.active {
+                    background-color: white;
+                }
+            }
+        }
+    }
+}
