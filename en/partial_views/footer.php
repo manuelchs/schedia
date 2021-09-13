@@ -1,5 +1,5 @@
 <?php
-    $hideInsta = $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/index' || $_SERVER['REQUEST_URI'] === '/index.php';
+    $hideInsta = $_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/en/' || $_SERVER['REQUEST_URI'] === '/en' || $_SERVER['REQUEST_URI'] === '/index' || $_SERVER['REQUEST_URI'] === '/index.php';
 ?>
 <div <?php if( $hideInsta ) { echo 'style="display: none;"'; }  ?> class="instagram main-wrapper">
     <img src="/assets/images/logo-instagram.png" alt="">
