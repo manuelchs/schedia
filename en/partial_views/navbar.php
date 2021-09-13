@@ -4,7 +4,7 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
 <div class="nav-wrapper <?php if ($altNav) { echo 'alt-nav'; } ?>" id="mainNav">
     <nav>
         <div class="gmw">
-            <a class="logo" href="/">
+            <a class="logo" href="/en">
                 <img src="/assets/images/logo.png" alt="Logo de Schedia">
             </a>
             <button class="burger-icon only-mobile mobile-menu-trigger">

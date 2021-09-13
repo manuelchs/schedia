@@ -21,7 +21,7 @@
             <div class="gmw">
                 <h1 class="home-page-hero-title custom-animation custom-animation-left">Creating intelligent workspace solutions.</h1>
                 <h2 class="small-title custom-animation custom-animation-bottom">The art behind the design.</h2>
-                <a href="/proyectos" class="main-button left-desktop-no-mobile custom-animation custom-animation-top"><span>Go to portfolio</span></a>
+                <a href="/en/portfolio" class="main-button left-desktop-no-mobile custom-animation custom-animation-top"><span>Go to portfolio</span></a>
                 <button onclick="scrollToID('footer', false)"><i class="fal fa-chevron-double-down"></i></button>
             </div>
         </div>
