@@ -155,6 +155,9 @@
                 @media #{$ipad} {
                     font-size: 1.5rem;
                 }
+                @media #{$iphone} {
+                    font-size: 1.2rem;
+                }
             }
         }
     }
