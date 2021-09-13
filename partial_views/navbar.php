@@ -41,7 +41,7 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                         <i class="fas fa-caret-down"></i>
                         <div id="languageOptions" class="options">
                             <a>Español <i class="far fa-check"></i></a>
-                            <a>English</a>
+                            <a href="/en">English</a>
                         </div>
                     </button>
                 </div>

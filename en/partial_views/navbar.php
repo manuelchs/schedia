@@ -17,16 +17,16 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                 </div>
                 <ul class="links">
                     <li>
-                        <a href="/">HOME</a>
+                        <a href="/en">HOME</a>
                     </li>
                     <li>
-                        <a href="/nosotros">ABOUT US</a>
+                        <a href="/en/about">ABOUT US</a>
                     </li>
                     <li>
-                        <a href="/proyectos">PORTFOLIO</a>
+                        <a href="/en/portfolio">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a href="/contacto">CONTACT US</a>
+                        <a href="/en/contact">CONTACT US</a>
                     </li>
                 </ul>
     
@@ -37,11 +37,11 @@ $altNav = $_SERVER['REQUEST_URI'] === '/terminos-y-condiciones' || $_SERVER['REQ
                     <a href="tel:+553333080076" class="social"><i class="far fa-phone"></i></a>
                     <button id="languageSubmenu" class="select-language">
                         <i class="far fa-globe"></i>
-                        <span>ES</span>
+                        <span>EN</span>
                         <i class="fas fa-caret-down"></i>
                         <div id="languageOptions" class="options">
-                            <a>Español <i class="far fa-check"></i></a>
-                            <a>English</a>
+                            <a href="/">Español</a>
+                            <a>English <i class="far fa-check"></i></a>
                         </div>
                     </button>
                 </div>
