@@ -11,8 +11,8 @@
     <div class="page-hero proyectos-hero">
         <div class="gmw">
             <h1>
-                <span class="custom-animation custom-animation-bottom">Proyectos</span>
-                <span class="custom-animation custom-animation-top">El arte de crear espacios corporativos.</span>
+                <span class="custom-animation custom-animation-bottom">Portfolio</span>
+                <span class="custom-animation custom-animation-top">The art behind your workspace</span>
             </h1>
         </div>
     </div>

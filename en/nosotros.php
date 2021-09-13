@@ -201,8 +201,8 @@
                                 <img src="/assets/icons/proceso/gestoria-tramites.png" alt="">
                                 <div class="step-number">1</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Gestoría de trámites</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Gestionamos trámites para construcción y contratación de servicios privados o del estado.</p>
+                            <h4 class="custom-animation custom-animation-top">Tramits and documentation</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">We manage procedures for construction and contracting of private and state services.</p>
                         </div>
                     </div>
                     <div class="slider-item s2">
@@ -211,8 +211,8 @@
                                 <img src="/assets/icons/proceso/planeacion-especializada.png" alt="">
                                 <div class="step-number">2</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Planeación Especializada</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Contamos con un equipo de ingenieros especializados en planeación de proyectos, logística, ejecución de ingenierías y cálculos.</p>
+                            <h4 class="custom-animation custom-animation-top">Strategic planning</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">We have a team of engineers specialized in project planning, logistics, engineering execution and calculation.</p>
                         </div>
                     </div>
                     <div class="slider-item s3">
@@ -221,8 +221,8 @@
                                 <img src="/assets/icons/proceso/electricidad-iluminacion.png" alt="">
                                 <div class="step-number">3</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Eléctricidad e iluminación</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Empleando una adecuada ingeniería eléctrica, realizamos todos los cálculos eléctricos para aterrizar un estudio de iluminación a la medida del proyecto.</p>
+                            <h4 class="custom-animation custom-animation-top">Electricity and illumination</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">Using adequate engineering, we carry out all the electrical calculations to land a lighting study tailored to the project.</p>
                         </div>
                     </div>
                     <div class="slider-item s4">
@@ -231,8 +231,8 @@
                                 <img src="/assets/icons/proceso/hidrahulica-sanitaria.png" alt="">
                                 <div class="step-number">4</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Hidráulica y sanitaria</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Trabajamos a partir de cálculos hidrosanitarios precisos.</p>
+                            <h4 class="custom-animation custom-animation-top">Hidraulic and sanitary requirements</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">We work from precise hydrosanitary calculations.</p>
                         </div>
                     </div>
                     <div class="slider-item s5">
@@ -241,8 +241,8 @@
                                 <img src="/assets/icons/proceso/proteccion-incendios.png" alt="">
                                 <div class="step-number">5</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Protección de incendios</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Aplicamos ingeniería de protección contra incendios según la NFPA.</p>
+                            <h4 class="custom-animation custom-animation-top">Fire prevention</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">We apply fire protection engineering according to the NFPA.</p>
                         </div>
                     </div>
                     <div class="slider-item s6">
@@ -251,8 +251,8 @@
                                 <img src="/assets/icons/proceso/cableado-estructurado.png" alt="">
                                 <div class="step-number">6</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Cableado estructurado</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Todo el cableado estructurado que instalamos cuenta no solo con los más altos estándares de calidad sino con todas las certificaciones necesarias.</p>
+                            <h4 class="custom-animation custom-animation-top">Structured cabling</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">All the structured cabling that we install has the highest quality standards in the industry and all the required certifications.</p>
                         </div>
                     </div>
                     <div class="slider-item s7">
@@ -261,8 +261,8 @@
                                 <img src="/assets/icons/proceso/audio-video-control.png" alt="">
                                 <div class="step-number">7</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Audio, video y control</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Esquipamiento especial de audio, video y control de acceso.</p>
+                            <h4 class="custom-animation custom-animation-top">Audio, video and control</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">Special equipment for audio, video and access controls.</p>
                         </div>
                     </div>
                     <div class="slider-item s8">
@@ -271,8 +271,8 @@
                                 <img src="/assets/icons/proceso/domotica.png" alt="">
                                 <div class="step-number">8</div>
                             </div>
-                            <h4 class="custom-animation custom-animation-top">Domótica</h4>
-                            <p class="custom-animation custom-animation-bottom text-box">Espacios inteligentes a partir de la gestión y automatización domótica.</p>
+                            <h4 class="custom-animation custom-animation-top">Automation</h4>
+                            <p class="custom-animation custom-animation-bottom text-box">Smart spaces that make management easier due to all the system automation implemented.</p>
                         </div>
                     </div>
                 </div>
