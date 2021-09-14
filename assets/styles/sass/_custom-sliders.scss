@@ -110,7 +110,7 @@
         padding: 0 2rem;
         @media #{$ipad} {
             grid-template-columns: repeat(2, 1fr);
-            grid-gap: 2rem;
+            grid-gap: 4rem;
         }
         img {
             filter: grayscale(1);
@@ -119,12 +119,16 @@
             &:hover {
                 filter: grayscale(0);
             }
+
+            @media #{$ipad} {
+                max-height: 42px;
+            }
         }
     }
 
     & + .points {
         @media #{$ipad} {
-            margin-top: 2rem;
+            margin-top: 4rem;
         }
     }
 }

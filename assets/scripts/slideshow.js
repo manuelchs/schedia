@@ -5,7 +5,7 @@ $(document).ready( function() {
 
     setInterval(function(){
         next();
-    }, 6000);
+    }, 4500);
 
 });
 

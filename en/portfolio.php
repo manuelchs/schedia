@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/hammer.js"></script>

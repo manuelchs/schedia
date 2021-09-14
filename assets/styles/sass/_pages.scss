@@ -177,10 +177,10 @@
             line-height: 64px;
             margin-bottom: 40px;
             font-weight: 500;
-            max-width: 450px;
+            max-width: 530px;
             text-align: center;
             @media #{$ipad} {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 line-height: 40px;
             }
         }
@@ -217,6 +217,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         overflow: hidden;
+        padding-bottom: 6rem;
 
         .floating-item {
             width: 100%;

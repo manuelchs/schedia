@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/img-slider.js"></script>
@@ -40,7 +40,7 @@
                 <div class="text">
                     <h2 class="main-title">
                         <span class="custom-animation custom-animation-bottom">Overall solutions</span>
-                        <span class="custom-animation custom-animation-top">From concept design to reality.</span>
+                        <span class="custom-animation custom-animation-top">From concept design to reality</span>
                     </h2>
                     <p class="mt-2 text-box custom-animation custom-animation-bottom">Bringing to life a concept design is not only a matter of having great construction staff but a matter of carefully executing both a market study about direct competitors of our customer and carrying out an on-site investigation with the purpose of optimizing our client’s Budget by reaching out to the best local suppliers on the place where the client’s project is being developed.</p>
                 </div>
@@ -52,7 +52,7 @@
         <div class="gmw">
             <h2 class="main-title centered">
                 <span class="custom-animation custom-animation-bottom">Why work with us?</span>
-                <span class="custom-animation custom-animation-top">Making your ideas happen.</span>
+                <span class="custom-animation custom-animation-top">Making your ideas happen</span>
             </h2>
             <div class="grid-icons">
                 <div class="grid-icon-item">
@@ -292,7 +292,7 @@
 
     <div class="main-wrapper nueva-historia-wrapper">
         <div class="gmw">
-            <h2 class="custom-animation custom-animation-bottom">Time to build a new story.</h2>
+            <h2 class="custom-animation custom-animation-bottom">Time to build a new story</h2>
             <a href="/en/contact" class="main-button custom-animation custom-animation-top"><span>Contact us</span></a>
         </div>
     </div>

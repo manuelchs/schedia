@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <?php include('partial_views/head_tag.php') ?>
     <script src="/assets/scripts/contacto.js"></script>
-    <title>Schedia - Contact</title>
+    <title>Schedia - Contact us</title>
 </head>
 <body>
     <?php include('partial_views/navbar.php') ?>
     <div class="page-hero contacto-hero">
         <div class="gmw">
             <h1>
-                <span class="custom-animation custom-animation-bottom">Contact</span>
-                <span class="custom-animation custom-animation-top">Your workspace starts here.</span>
+                <span class="custom-animation custom-animation-bottom">Contact us</span>
+                <span class="custom-animation custom-animation-top">Your workspace starts here</span>
             </h1>
             <a href="tel:+553333080076" class="main-button left-desktop-no-mobile icon icon-left custom-animation custom-animation-bottom"><i class="fas fa-phone"></i><span>Call us</span></a>
         </div>
@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div class="form-wrapper">
-                <h3 class="custom-animation custom-animation-bottom">Send us a message.</h3>
+                <h3 class="custom-animation custom-animation-bottom">Send us a message</h3>
                 <form id="contact-form" action="sendemail.php" method="post">
                     <input name="nombre" type="text" class="main-input custom-animation custom-animation-bottom" placeholder="Name*">
                     <input name="email" type="text" class="main-input custom-animation custom-animation-top" placeholder="E-mail address*">
